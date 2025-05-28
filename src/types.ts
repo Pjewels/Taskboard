@@ -4,6 +4,7 @@ export interface Task {
   priority: 'low' | 'medium' | 'high';
   category: 'work' | 'personal' | 'other';
   dueDate: string;
+  notes: string;
   completed: boolean;
 }
 
@@ -12,4 +13,5 @@ export interface NewTask {
   priority: 'low' | 'medium' | 'high';
   category: 'work' | 'personal' | 'other';
   dueDate: string;
+  notes: string;
 }

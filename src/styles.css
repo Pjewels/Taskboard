@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-input, select {
+input, select, textarea {
   @apply transition duration-200;
 }
 
