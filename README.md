@@ -22,7 +22,7 @@ Sort tasks by priority or due date.
 Persist tasks in local storage.
 Responsive design with Tailwind CSS.
 
-Deployment to Vercel
+ # Deployment to Vercel
 
 Install Vercel CLI:npm install -g vercel
 

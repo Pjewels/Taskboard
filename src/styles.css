@@ -2,10 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-input, select, textarea {
-  @apply transition duration-200;
+/* Custom scrollbar styles for dark mode */
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
 
-button {
-  @apply transition duration-200;
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 4px;
 }
